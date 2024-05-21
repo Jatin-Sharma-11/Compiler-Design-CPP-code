@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <!-- Add CSS for styling the page -->
+  <style>
+    /* Add styles for the navigation bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: lightblue;
+    }
+
+    .navbar .toggle {
+      display: none;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li a {
+      display: block;
+      padding: 1rem;
+      text-decoration: none;
+      color: white;
+    }
+
+    /* Add styles for header */
+    .header {
+      padding: 2rem;
+      text-align: center;
+      background-color: lightgray;
+    }
+
+    /* Add styles for sections */
+    .section {
+      padding: 2rem;
+    }
+
+    /* Add styles for footer */
+    .footer {
+      padding: 1rem;
+      text-align: center;
+      background-color: lightblue;
+      color: white;
+    }
+
+    /* Add media query for responsive design */
+    @media (max-width: 768px) {
+      .navbar ul {
+        display: none;
+      }
+
+      .navbar .toggle {
+        display: block;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <h3>My Website</h3>
+    <span class="toggle">Toggle</span>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Welcome to My Website</h1>
+  </div>
+
+  <!-- Four sections -->
+  <section class="section">
+    <h2>Section 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, nunc eu tristique viverra, ipsum nisi consectetur metus, in pharetra leo metus a justo. Aliquam commodo neque non libero egestas, a placerat est tristique.</p>
+  </section>
+
+  <section class="section">
+    <h2>Section 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, nunc eu trist

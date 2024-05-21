@@ -1,0 +1,6 @@
+ void main ( )
+
+ { 
+     int /*comment*/ t x ; 
+     float comment */ y ;
+ }
